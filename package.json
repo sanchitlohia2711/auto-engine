@@ -1,0 +1,36 @@
+{
+  "name": "auto-engine",
+  "version": "1.0.0",
+  "description": "Framework for creating a rule engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchitlohia2711/auto-engine.git"
+  },
+  "keywords": [
+    "rule",
+    "engine"
+  ],
+  "author": "Sanchit Lohia <sanchitlohia27@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanchitlohia2711/auto-engine/issues"
+  },
+  "homepage": "https://github.com/sanchitlohia2711/auto-engine#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "lodash": "^4.14.1",
+    "moment": "^2.14.1",
+    "request": "^2.74.0",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "mocha": "^3.0.1",
+    "should": "^10.0.0",
+    "supertest": "^2.0.0"
+  }
+}
